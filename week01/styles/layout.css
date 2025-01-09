@@ -1,0 +1,90 @@
+header{
+grid-template-columns: auto 1fr;
+justify-content: space-between;
+align-items: center;
+margin: -10px;
+}
+
+header h1{
+color: white;
+background-color: rgba(54, 53, 53, 0.808);
+font-size: 20px;
+padding: 1rem;
+height: 150px;
+margin-bottom: 0px;
+}
+
+header nav{
+display: flex;
+background-color: black;
+justify-content: center;
+}
+
+
+header nav a {
+margin:0 11rem;
+color: white;
+text-decoration: none;
+font-weight: bold;
+text-align: center;
+padding: 20px; 
+border-radius: 3px;
+}
+
+main{
+margin: -16px 0px 0px -30px;
+font-size: 20px;
+}
+.container {
+display: grid;
+grid-template-columns: 3fr 1fr; 
+padding: 1rem; 
+margin-top: 0px;
+}
+  
+.maincont {
+background-color: rgb(175, 172, 172); 
+color: black; 
+padding-top: 1rem; 
+padding-left: 1rem; 
+height: 500px; 
+display: flex;
+align-items: flex-start; 
+justify-content: flex-start;
+}
+
+.maincont p{
+margin: 0;
+}
+  
+.asidecont {
+background-color: white; 
+color: black; 
+padding-top: 1rem; 
+padding-left: 1rem; 
+height: 500px; 
+display: flex;
+align-items: flex-start; 
+justify-content: flex-start; 
+}
+
+.asidecont p {
+margin: 0;
+}
+
+footer{
+background-color: rgba(54, 53, 53, 0.808);
+color: white;
+margin: -16px 0px 0px -10px;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+height: 200px;
+
+}
+
+footer p{
+margin: 20px;
+text-align: center;
+}
+
