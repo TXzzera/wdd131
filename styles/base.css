@@ -48,7 +48,7 @@ header{
         color: black;
         padding: 1rem;
         display: grid;
-        gap: 2rem; /* Espaço entre os blocos .me e .brazil */
+        gap: 2rem; 
     }
     
     .card .me,
@@ -60,7 +60,7 @@ header{
       text-align: center;
       font-size: 1.8rem;
       margin-bottom: 1 rem;
-      padding: 1rem; /* Adiciona espaço interno para o fundo */
+      padding: 1rem; 
     }
     
     .card .brazil h3 {
@@ -71,29 +71,28 @@ header{
     
     .card .content {
         display: grid;
-        grid-template-columns: 1fr auto; /* Texto ocupa mais espaço, imagem ajusta */
-        align-items: center; /* Centraliza verticalmente */
+        grid-template-columns: 1fr auto;
+        align-items: center; 
         gap: 2rem; 
     
     }
       
     .card2 {
-        background-color: rgb(255, 255, 255); /* Cor de fundo similar à .card */
+        background-color: rgb(255, 255, 255); 
         color: black;
         padding: 1rem;
-        display: grid; /* Usando grid para estrutura */
+        display: grid; 
     }
     
     .card2 h2 { 
         text-align: center;
         font-size: 1.8rem;
-        margin-bottom: 1rem; /* Ajuste para reduzir o espaço abaixo do título */
-        padding: 0.5rem; /* Mantém o padding para o fundo */
+        padding: 0.5rem; 
     }
     
     .card2 p {
-        margin-top: 20rem; /* Pequeno ajuste para o p não ficar muito distante do título */
-        margin-bottom: 0; /* Remove a margem inferior para um ajuste mais preciso */
+        margin-top: 20rem; 
+        margin-bottom: 0; 
     }
     
     .card2 div {
