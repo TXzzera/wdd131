@@ -1,0 +1,125 @@
+header{
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+    
+    header h1{
+    color: white;
+    background-color: rgba(54, 53, 53, 0.808);
+    font-size: 40px;
+    padding: 1rem;
+    height: 150px;
+    margin-bottom: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    header nav{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    }
+    
+    
+    header nav a {
+    margin:0 11rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px; 
+    border-radius: 3px;
+    }
+    
+    main{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    padding: 1rem; 
+    margin-top: 1px;
+    }
+      
+    .card {
+        background-color: rgb(175, 172, 172);
+        color: black;
+        padding: 1rem;
+        display: grid;
+        gap: 2rem; /* Espaço entre os blocos .me e .brazil */
+    }
+    
+    .card .me,
+    .card .brazil {
+        display: block;
+    }
+    
+    .card h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 1 rem;
+      padding: 1rem; /* Adiciona espaço interno para o fundo */
+    }
+    
+    .card .brazil h3 {
+        text-align: left;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    
+    .card .content {
+        display: grid;
+        grid-template-columns: 1fr auto; /* Texto ocupa mais espaço, imagem ajusta */
+        align-items: center; /* Centraliza verticalmente */
+        gap: 2rem; 
+    
+    }
+      
+    .card2 {
+        background-color: rgb(255, 255, 255); /* Cor de fundo similar à .card */
+        color: black;
+        padding: 1rem;
+        display: grid; /* Usando grid para estrutura */
+    }
+    
+    .card2 h2 { 
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 1rem; /* Ajuste para reduzir o espaço abaixo do título */
+        padding: 0.5rem; /* Mantém o padding para o fundo */
+    }
+    
+    .card2 p {
+        margin-top: 20rem; /* Pequeno ajuste para o p não ficar muito distante do título */
+        margin-bottom: 0; /* Remove a margem inferior para um ajuste mais preciso */
+    }
+    
+    .card2 div {
+        display: block;
+    }
+    
+
+    .card img {
+       width: 200px;
+       height: auto;
+       padding: 5px;
+    }
+    
+    footer{
+    background-color: rgba(54, 53, 53, 0.808);
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 200px;
+    
+    }
+    
+    footer p{
+    margin: 20px;
+    text-align: center;
+    }
+    
+    
