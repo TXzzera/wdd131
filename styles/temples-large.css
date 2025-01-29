@@ -1,0 +1,64 @@
+
+@media (min-width: 1024px) {
+    .temples {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .menu-button {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width:1023px){
+    .temples {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .menu-button {
+        display: none;
+    }
+}
+
+
+/* MOSTRAR O BOTÃO HAMBÚRGUER E ESCONDER O MENU EM TELAS PEQUENAS */
+@media (max-width: 767px) {
+    /* ESCONDER O MENU POR PADRÃO */
+    header nav {
+        display: none; /* Menu desaparece em telas pequenas */
+        flex-direction: column; /* Menu em estilo vertical */
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9); /* Fundo escuro */
+        z-index: 1000;
+    }
+
+    /* MOSTRAR O MENU QUANDO A CLASSE `show` ESTIVER PRESENTE */
+    header nav.show {
+        display: flex; /* Menu reaparece ao clicar no botão */
+    }
+
+    /* LINKS NO MENU */
+    header nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bold;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    /* ESTILO DO BOTÃO HAMBÚRGUER */
+    .menu-button {
+        display: block; /* Botão aparece em telas pequenas */
+        font-size: 30px;
+        background: none;
+        border: none;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 1001; /* Fica acima do conteúdo */
+    }
+}
