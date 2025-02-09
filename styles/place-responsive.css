@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    /* Ajusta a imagem para não ocupar toda a altura */
+    .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Centraliza a hero image */
+    .hero {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Ajusta o layout das boxes */
+    .box-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-data {
+        margin-top: 0;
+        position: relative;
+    }
+
+    .box-weather {
+        margin-top: 1rem;
+        position: relative;
+    }
+}

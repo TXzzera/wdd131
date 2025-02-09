@@ -1,0 +1,136 @@
+:root {
+    --main-bg: rgb(177, 30, 30);
+    --secondary-bg: rgb(30, 129, 176);
+    --white: rgb(238, 238, 228);
+    --text-color: #000000;
+    --box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos gerais */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--main-bg);
+    color: var(--white);
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Main - Área principal */
+main {
+    flex: 1;
+    position: relative;
+}
+
+/* Hero - Imagem de fundo */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Box de dados - Canto superior esquerdo */
+.box-data {
+    background-color: var(--white);
+    border: 2px solid var(--secondary-bg);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    color: var(--text-color);
+    text-align: left;
+    width: 80%;
+    max-width: 400px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Box de clima - Canto inferior direito */
+.box-weather {
+    background-color: var(--white);
+    border: 2px solid var(--secondary-bg);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    color: var(--text-color);
+    text-align: left;
+    width: 80%;
+    max-width: 400px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Títulos das boxes */
+.box-data h2,
+.box-weather h2 {
+    background-color: var(--secondary-bg);
+    color: var(--white);
+    padding: 0.5rem;
+    margin: -1rem -1rem 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Listas dentro das boxes */
+.box-data ul,
+.box-weather ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box-data li,
+.box-weather li {
+    margin: 0.5rem 0;
+}
+
+/* Ícone de clima */
+.weather-icon img {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Footer - Rodapé */
+footer {
+    background-color: var(--main-bg);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer p:last-child {
+    font-size: 0.9rem;
+}

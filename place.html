@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bruno de Sousa Teixeira">
+    <meta name="description" content="Information about my city: São Paulo.">
+    <title>São Paulo, my city</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/places-responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>São Paulo</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="images/sao_paulo.webp">
+                <source media="(min-width: 768px)" srcset="images/sao_paulo_med.webp">
+                <img src="images/morumbi_sao_paulo.webp" alt="Morumbi Stadium in São Paulo, Brazil" loading="lazy">
+            </picture>
+
+            <div class="box-data">
+                <h2>Data</h2>
+                <ul>
+                    <li><strong>Area:</strong> 1,523 km²</li>
+                    <li><strong>Population:</strong> 11,045,000</li>
+                    <li><strong>Capital:</strong> São Paulo</li>
+                    <li><strong>Languages:</strong> Portuguese</li>
+                    <li><strong>Currency:</strong> Real</li>
+                    <li><strong>Time Zone:</strong> UTC-3</li>
+                    <li><strong>Calling Code:</strong> +55 11</li>
+                    <li><strong>Internet TLD:</strong> .br</li>
+                </ul>
+            </div>
+
+            <div class="box-weather">
+                <h2>Weather <span class="weather-icon"><img src="images/cloudy_icon.svg" alt="Cloudy"></span></h2>
+                <ul>
+                    <li><strong>Temperature:</strong> 23°C</li>
+                    <li><strong>Conditions:</strong> Cloudy</li>
+                    <li><strong>Wind:</strong> 18 km/h</li>
+                    <li><strong>Wind Chill:</strong> <span id="windchill">N/A</span></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="currentYear"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/place.js" defer></script>
+</body>
+
+</html>
