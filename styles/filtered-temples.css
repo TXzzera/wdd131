@@ -1,0 +1,203 @@
+/*
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+header h1 {
+    color: white;
+    background-color: rgba(154, 179, 66, 0.808);
+    font-size: 40px;
+    padding: 1rem;
+    height: 150px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: black;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px; 
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: red;
+}
+
+
+main h2 {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.temples-world {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background: white; 
+    padding: 15px;
+    border: 4px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-align: center; 
+    margin: 0 auto;   
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    width: 100%; 
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: rgba(154, 179, 66, 0.808);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    font-size: 18px;
+    text-align: center;
+}*/
+
+/* Reset básico (opcional) */
+
+header{
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+    
+    header h1{
+    color: white;
+    background-color: rgba(154, 179, 66, 0.808);
+    font-size: 40px;
+    padding: 1rem;
+    height: 150px;
+    margin-bottom: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+header nav{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    text-decoration-color: none;
+    }
+
+header nav a {
+    margin:0 11rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px; 
+    border-radius: 3px;
+    }
+
+header nav a:hover{
+    color: red; 
+}
+
+main h2 {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    
+}
+
+main{
+    background-color:  rgb(255, 255, 255);
+}
+
+.temples-world {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 20px; /* Espaço entre as imagens */
+    text-align: center;
+    padding: 20px;
+}
+    
+    /* Estilização das figuras (imagens + legendas) */
+.card {
+    background: white; /* Fundo branco para destacar a imagem */
+    padding: 10px;
+    border: 4px solid black; /* Borda preta média */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0;
+}
+    
+    /* Configuração das imagens */
+img {
+    width: 100%; /* Responsivo */
+    height: auto;
+    display: block;
+    }
+    
+    /* Estilo da legenda */
+p {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+footer{
+    background-color: rgba(154, 179, 66, 0.808);
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 200px;
+    font-size: 18px;
+    
+}
+    
+footer p{
+    margin: 20px;
+    text-align: center;
+}
