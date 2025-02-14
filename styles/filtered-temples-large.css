@@ -22,6 +22,10 @@
 
 @media (max-width: 767px) {
 
+    .temples-world{
+        grid-template-columns: 1fr;
+    }
+
     header nav {
         display: none; 
         flex-direction: column;
