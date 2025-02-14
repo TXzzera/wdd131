@@ -32,6 +32,7 @@ header nav a {
     text-align: center;
     padding: 20px; 
     border-radius: 3px;
+    text-decoration: none;
     }
 
 header nav a:hover{
@@ -59,7 +60,7 @@ main{
     
 
 .card {
-    background: rgb(247, 241, 241); 
+    background: rgb(240, 236, 236); 
     border: 4px solid black; 
     border-radius: 10px; 
     margin: 0;
@@ -67,7 +68,7 @@ main{
     
 
 img {
-    width: 400px; 
+    width: 100%; 
     height: 200px;
     display: block;
     margin: 0 auto;
