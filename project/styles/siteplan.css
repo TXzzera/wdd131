@@ -1,0 +1,98 @@
+:root {
+    --primary-color: #39462B;
+    --secondary-color: #F5EEE6;
+    --background-color: #FFFFFF;
+    --text-color: #030303;
+    --font-headings: 'Roboto', sans-serif;
+    --font-body: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-body);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: var(--font-headings);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2, h3 {
+    font-family: var(--font-headings);
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 1rem;
+}
+
+p, li {
+    background-color: var(--secondary-color);
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.site-plan {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.wireframe-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    width: 100%; 
+}
+
+.wireframe-group {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+    width: 48%; 
+}
+
+.wireframe-group img {
+    width: 100%;
+    height: auto; 
+    max-width: 200px; 
+    transition: transform 0.3s ease; 
+}
+
+.wireframe-group img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: var(--primary-color); 
+    color: #FFFFFF;
+    text-align: center; 
+    padding: 1rem; 
+    margin-top: 20px; 
+}
+
+footer p{
+    background-color: var(--primary-color);
+}

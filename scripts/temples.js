@@ -12,3 +12,4 @@ document.addEventListener("DOMContentLoaded", function () {
         menu.classList.toggle("show"); // Alterna a visibilidade do menu
     });
 });
+
