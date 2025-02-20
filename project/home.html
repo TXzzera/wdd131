@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content="Museums in São Paulo - WDD 131 - Dynamic Web Fundamentals. ">
+    <meta name = "author" content = "Bruno de Sousa Teixeira">
+    <link rel="stylesheet" href="styles/standard.css">
+    <script src="scripts/home.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik&display=swap" rel="stylesheet">
+    <title>Museums in São Paulo | WDD 131</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/museum-icon.png" alt="Icon of a museum" loading="lazy" width="90" height="70">
+            <h1>Museums in São Paulo</h1>
+        </div>
+        <nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a class="active-tab" href="">Home</a></li>
+                <li><a href="collection.html">Collection</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <main>
+            <section id="hero">
+              <div class="text">
+                <h2>Go deeper in São Paulo</h2>
+                <p>
+                São Paulo is Brazil’s entertainment capital, offering endless attractions for all tastes.
+                For the lovers of history and culture, São Paulo has a wide range of museums to explore.
+                </p>
+                <p class="sub">Come with us to discover these wonderful places!</p>
+                <a class="button" href="collection.html">See the Options</a>
+                <a class="button" href="contact.html">Contact us</a>
+              </div>
+              <div class="hero-img">
+                <img src="images/paulista.jpeg" alt="São Paulo city">
+              </div>
+            </section>
+            <section id="top">
+                <h2>Top Tier Museums</h2>
+                <div id="museums-container"></div>
+            </section>
+        </main>
+        <footer>
+            <p id="currentYear"></p>
+            <p id="lastModified"></p>
+        </footer>
+</body>
+</html>

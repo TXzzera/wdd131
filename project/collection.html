@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content="Museums in São Paulo - WDD 131 - Dynamic Web Fundamentals. ">
+    <meta name = "author" content = "Bruno de Sousa Teixeira">
+    <link rel="stylesheet" href="styles/standard.css">
+    <script src="scripts/others.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik&display=swap" rel="stylesheet">
+    <title>Museums in São Paulo | WDD 131</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/museum-icon.png" alt="Icon of a museum" loading="lazy" width="90" height="70">
+            <h1>Museums in São Paulo</h1>
+        </div>
+        <nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a class="active-tab" href="">Collection</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Museum Collection</h2>
+      <section class = "museums-list">
+        <figure>
+            <img src="images/masp.jpg">
+            <figcaption>MASP "Museu de Arte de São Paulo"</figcaption>
+            <a class="button" href="https://masp.org.br/en">Know More</a>
+        </figure>
+        <figure>
+            <img src="images/museu-futebol.jpg">
+            <figcaption>Museu do Futebol</figcaption>
+            <a class="button" href="https://museudofutebol.org.br/en/pagina-inicial-en/">Know More</a>
+        </figure>
+        <figure>
+            <img src="images/museu-da-imigracao.jpg">
+            <figcaption>Museu da Imigração do Estado de São Paulo</figcaption>
+            <a class="button" href="https://museudaimigracao.org.br/en">Know More</a>
+        </figure>
+        <figure>
+            <img src="images/pinacoteca.jpg">
+            <figcaption>Pinacoteca de São Paulo</figcaption>
+            <a class="button" href="https://pinacoteca.org.br/en/">Know More</a>
+        </figure>
+        <figure>
+            <img src="images/museu-lingua-portuguesa.webp">
+            <figcaption>Museu da Língua Portuguesa</figcaption>
+            <a class="button" href="https://www.museudalinguaportuguesa.org.br/en/">Know More</a>
+        </figure>
+        <figure>
+            <img src="images/museu-da-imagem-e-do-som.webp">
+            <figcaption>Museu da Imagem e do Som</figcaption>
+            <a class="button" href="https://mis-sp.org.br/">Know More</a>
+        </figure>
+        <figure>
+            <img src="images/museu-catavento.jpg">
+            <figcaption>Museu Catavento</figcaption>
+            <a class="button" href="https://museucatavento-org-br.translate.goog/?_x_tr_sl=pt&_x_tr_tl=en&_x_tr_hl=pt-BR">Know More</a>
+        </figure>
+        <figure>
+            <img src="images/museu-imigracao-japonesa.jpg">
+            <figcaption>Museu Histórico da Imigração Japonesa</figcaption>
+            <a class="button" href="https://www.bunkyo.org.br/br/museu-historico/">Know More</a>
+        </figure>
+        <figure>
+            <img src="images/museu-afro-brasil.jpg">
+            <figcaption>Museu Afro Brasil</figcaption>
+            <a class="button" href="http://www.museuafrobrasil.org.br/en/o-museu/introduction">Know More</a>
+        </figure>
+      </section>
+    </main>
+    <footer>
+        <p id="currentYear"></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
